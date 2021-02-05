@@ -15,6 +15,11 @@
 		259C241D25CC83E500735AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259C241B25CC83E500735AC1 /* LaunchScreen.storyboard */; };
 		259C242825CC83E500735AC1 /* Lab4exTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C242725CC83E500735AC1 /* Lab4exTests.swift */; };
 		259C243325CC83E500735AC1 /* Lab4exUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C243225CC83E500735AC1 /* Lab4exUITests.swift */; };
+		259C245A25CDCAD200735AC1 /* LevelOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C245925CDCAD200735AC1 /* LevelOneController.swift */; };
+		259C245F25CDCADA00735AC1 /* LevelTwoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C245E25CDCADA00735AC1 /* LevelTwoController.swift */; };
+		259C246425CDCB1000735AC1 /* L1S1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C246325CDCB1000735AC1 /* L1S1Controller.swift */; };
+		259C246925CDCB2000735AC1 /* L1S2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C246825CDCB2000735AC1 /* L1S2Controller.swift */; };
+		259C246E25CDCB2F00735AC1 /* L2S1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C246D25CDCB2F00735AC1 /* L2S1Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		259C242E25CC83E500735AC1 /* Lab4exUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab4exUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		259C243225CC83E500735AC1 /* Lab4exUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab4exUITests.swift; sourceTree = "<group>"; };
 		259C243425CC83E500735AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259C245925CDCAD200735AC1 /* LevelOneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOneController.swift; sourceTree = "<group>"; };
+		259C245E25CDCADA00735AC1 /* LevelTwoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwoController.swift; sourceTree = "<group>"; };
+		259C246325CDCB1000735AC1 /* L1S1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1S1Controller.swift; sourceTree = "<group>"; };
+		259C246825CDCB2000735AC1 /* L1S2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L1S2Controller.swift; sourceTree = "<group>"; };
+		259C246D25CDCB2F00735AC1 /* L2S1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2S1Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +112,15 @@
 				259C241025CC83E400735AC1 /* AppDelegate.swift */,
 				259C241225CC83E400735AC1 /* SceneDelegate.swift */,
 				259C241425CC83E400735AC1 /* ViewController.swift */,
+				259C241B25CC83E500735AC1 /* LaunchScreen.storyboard */,
 				259C241625CC83E400735AC1 /* Main.storyboard */,
 				259C241925CC83E500735AC1 /* Assets.xcassets */,
-				259C241B25CC83E500735AC1 /* LaunchScreen.storyboard */,
 				259C241E25CC83E500735AC1 /* Info.plist */,
+				259C245925CDCAD200735AC1 /* LevelOneController.swift */,
+				259C245E25CDCADA00735AC1 /* LevelTwoController.swift */,
+				259C246325CDCB1000735AC1 /* L1S1Controller.swift */,
+				259C246825CDCB2000735AC1 /* L1S2Controller.swift */,
+				259C246D25CDCB2F00735AC1 /* L2S1Controller.swift */,
 			);
 			path = Lab4ex;
 			sourceTree = "<group>";
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				259C246925CDCB2000735AC1 /* L1S2Controller.swift in Sources */,
 				259C241525CC83E400735AC1 /* ViewController.swift in Sources */,
 				259C241125CC83E400735AC1 /* AppDelegate.swift in Sources */,
+				259C246425CDCB1000735AC1 /* L1S1Controller.swift in Sources */,
 				259C241325CC83E400735AC1 /* SceneDelegate.swift in Sources */,
+				259C246E25CDCB2F00735AC1 /* L2S1Controller.swift in Sources */,
+				259C245F25CDCADA00735AC1 /* LevelTwoController.swift in Sources */,
+				259C245A25CDCAD200735AC1 /* LevelOneController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

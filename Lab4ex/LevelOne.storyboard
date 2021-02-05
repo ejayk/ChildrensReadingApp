@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="lRN-YC-dLo">
+            <objects>
+                <viewController id="Di4-zW-bv3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fOA-4D-Ts9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kpe-eL-t90">
+                                <rect key="frame" x="72" y="444.5" width="270" height="163.5"/>
+                                <color key="backgroundColor" red="0.32671879599999998" green="0.39140076930000001" blue="0.40642536849999999" alpha="0.46570239419999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <inset key="titleEdgeInsets" minX="-38" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="-10" minY="11" maxX="117" maxY="17"/>
+                                <state key="normal" title="Story Two" image="story2">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7b6-yR-7gK">
+                                <rect key="frame" x="72" y="254" width="270" height="163"/>
+                                <color key="backgroundColor" red="0.32671879599999998" green="0.39140076930000001" blue="0.40642536849999999" alpha="0.46999999999999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="Lhh-1d-usS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <inset key="titleEdgeInsets" minX="-71" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="-17" minY="0.0" maxX="93" maxY="17"/>
+                                <state key="normal" title="Story One" image="story1">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Clouds" translatesAutoresizingMaskIntoConstraints="NO" id="S9L-PW-n2a">
+                                <rect key="frame" x="-135" y="497" width="584" height="458"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="584" id="Jhc-x7-mHp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NfB-lH-caZ"/>
+                        <color key="backgroundColor" name="AccentColor"/>
+                        <constraints>
+                            <constraint firstItem="Kpe-eL-t90" firstAttribute="top" secondItem="7b6-yR-7gK" secondAttribute="bottom" constant="27.5" id="3eb-Lm-Btx"/>
+                            <constraint firstItem="NfB-lH-caZ" firstAttribute="bottom" secondItem="Kpe-eL-t90" secondAttribute="bottom" constant="254" id="ATd-Bf-4y6"/>
+                            <constraint firstItem="7b6-yR-7gK" firstAttribute="top" secondItem="NfB-lH-caZ" secondAttribute="top" constant="210" id="OLJ-k8-BF2"/>
+                            <constraint firstItem="7b6-yR-7gK" firstAttribute="leading" secondItem="NfB-lH-caZ" secondAttribute="leading" constant="72" id="OZg-Xb-5gO"/>
+                            <constraint firstItem="7b6-yR-7gK" firstAttribute="centerX" secondItem="fOA-4D-Ts9" secondAttribute="centerX" id="P8v-hM-47e"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="S9L-PW-n2a" secondAttribute="bottom" constant="-88" id="abR-Pz-cQW"/>
+                            <constraint firstItem="7b6-yR-7gK" firstAttribute="leading" secondItem="Kpe-eL-t90" secondAttribute="leading" id="lyI-zO-yY7"/>
+                            <constraint firstItem="S9L-PW-n2a" firstAttribute="top" secondItem="7b6-yR-7gK" secondAttribute="bottom" constant="75" id="tvv-ga-hsf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="S9L-PW-n2a" secondAttribute="trailing" constant="-67" id="wbZ-mA-a1h"/>
+                            <constraint firstItem="7b6-yR-7gK" firstAttribute="trailing" secondItem="Kpe-eL-t90" secondAttribute="trailing" id="ytG-g0-2Wf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8O-az-xc9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-336" y="-56"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Clouds" width="176.33332824707031" height="157"/>
+        <image name="story1" width="531" height="470"/>
+        <image name="story2" width="523" height="477"/>
+        <namedColor name="AccentColor">
+            <color red="0.74890750646591187" green="0.90250259637832642" blue="0.93714058399200439" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
